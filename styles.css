@@ -1,0 +1,232 @@
+
+/* Estilos generales */
+body {
+    font-family: 'sans-serif';
+    background-color: #b4a35a;
+    color: #050405;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    font-size: 1.1rem;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #0b0b0b;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #141414;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.container ul {
+    padding-left: 20px;
+}
+
+.container ul ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos específicos para about.html */
+.about-section {
+    background-color: #a72e2e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(10, 10, 10);
+}
+
+
+/* Estilos para el carrusel */
+
+/* Carousel Styles */
+.carousel-item {
+    padding: 20px 60px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    position: center;
+    margin-top: 9px;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+/* Carousel Styles */
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0);
+    color: #050405;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 2px -2px rgb(158, 125, 75);
+}
+
+/* Form Styles */
+.form-control,
+.btn {
+    margin-bottom: 10px;
+}
+
+/* styles.css */
+
+/* Footer Styles */
+footer {
+    background-color: #c5a562;
+    color: #b10a0a;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 20px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #b4a35a;
+    border-radius: 8px;
+}
+
+.body{
+    background-color: #c0b6a0;
+}
+.bg-light{
+    background-color: #b4a35a;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card-header{
+    border-radius: 10px 10px 0 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #010101;
+}
+
+.btn-primary:hover{
+    background-color: #b4a35a;
+}
+
+.shadow-lg{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0, 175);
+}
+
+body, .bg-light{
+    background-color: #b4a35a;
+}
+
+.card{
+    background-color: #b4a35a;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.container img {
+    border: 2px solid #b4a35a;
+    border-radius: 10px;
+}
+
+h5 {
+    font-weight: bold;
+    color: #080809;
+}
